@@ -17,7 +17,7 @@ import '../scss/app.scss';
 // CUSTOM SCRIPTS
 ////////////////////////////////////////////////////////////////////////////////
 
-import './test.js';
+import './components/hamburger-icon.js';
 
 (() => {
   console.log('babel-teraz');
