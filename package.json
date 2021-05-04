@@ -1,48 +1,34 @@
 {
-  "name": "dobrze-urzadzeni",
+  "name": "webpack-moj",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "clean": "rimraf dist && mkdirp dist",
-    "dev": "webpack-dev-server --open --mode development",
-    "build": "npm run clean && webpack --mode production"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode=development",
+    "build": "webpack --mode=production"
   },
-  "author": "tchorek",
+  "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@babel/core": "^7.0.1",
-    "@babel/preset-env": "^7.0.0",
-    "autoprefixer": "^9.0.0",
-    "babel-loader": "^8.0.2",
-    "copy-webpack-plugin": "^5.1.1",
-    "css-loader": "^2.1.1",
-    "cssnano": "^4.0.3",
-    "extract-text-webpack-plugin": "^4.0.0-beta.0",
-    "favicons-webpack-plugin": "0.0.9",
-    "file-loader": "^3.0.1",
-    "html-loader": "^0.5.5",
-    "html-webpack-plugin": "^3.2.0",
-    "image-webpack-loader": "^4.3.1",
-    "lity": "^2.4.1",
-    "mkdirp": "^0.5.1",
-    "node-sass": "^4.14.1",
-    "npm": "^6.4.1",
-    "optimize-css-assets-webpack-plugin": "^5.0.3",
-    "postcss-loader": "^3.0.0",
-    "rimraf": "^2.6.2",
-    "sass-loader": "^7.1.0",
-    "style-loader": "^0.23.0",
-    "terser-webpack-plugin": "^2.3.2",
-    "webpack": "^4.29.6",
-    "webpack-cli": "^3.1.0",
-    "webpack-dev-server": "^3.1.8"
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "autoprefixer": "^10.2.0",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^7.0.0",
+    "css-loader": "^5.0.1",
+    "html-webpack-plugin": "^4.5.1",
+    "postcss-loader": "^4.1.0",
+    "sass": "^1.32.2",
+    "sass-loader": "^10.1.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.11.1",
+    "webpack-cli": "^4.3.1"
   },
-  "dependencies": {
-    "aos": "^2.3.4",
-    "bootstrap": "^4.1.3",
-    "jquery": "^3.3.1",
-    "popper.js": "^1.14.7",
-    "tiny-slider": "^2.9.3"
-  }
+  "dependencies": {},
+  "browserslist": [
+    "since 2008"
+  ],
+  "keywords": [],
+  "description": ""
 }
