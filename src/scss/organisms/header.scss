@@ -1,6 +1,7 @@
 .header {
   background-color: #a5a5a5;
   position: relative;
+  height: 100px;
 
   &__text {
     visibility: visible;
@@ -24,6 +25,9 @@
   }
 
   &.active {
+    height: 400px;
+    transition: all 0.3s ease;
+
     .header__text {
       visibility: hidden;
       opacity: 0;
